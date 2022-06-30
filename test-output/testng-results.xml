@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="84777" started-at="2022-05-13T09:51:54 IST" finished-at="2022-05-13T09:53:19 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="84777" started-at="2022-05-13T09:51:54 IST" finished-at="2022-05-13T09:53:19 IST">
+      <class name="StepDefLoginPage.Sample9">
+        <test-method status="PASS" signature="a()[pri:0, instance:StepDefLoginPage.Sample9@b7dd107]" name="a" duration-ms="66550" started-at="2022-05-13T09:51:54 IST" finished-at="2022-05-13T09:53:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a -->
+      </class> <!-- StepDefLoginPage.Sample9 -->
+      <class name="StepDefLoginPage.Sample6">
+        <test-method status="PASS" signature="a()[pri:0, instance:StepDefLoginPage.Sample6@37374a5e]" name="a" duration-ms="60590" started-at="2022-05-13T09:51:54 IST" finished-at="2022-05-13T09:52:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a -->
+      </class> <!-- StepDefLoginPage.Sample6 -->
+      <class name="StepDefLoginPage.Sample5">
+        <test-method status="PASS" signature="a()[pri:0, instance:StepDefLoginPage.Sample5@8646db9]" name="a" duration-ms="46388" started-at="2022-05-13T09:51:54 IST" finished-at="2022-05-13T09:52:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a -->
+      </class> <!-- StepDefLoginPage.Sample5 -->
+      <class name="StepDefLoginPage.Sample8">
+        <test-method status="PASS" signature="a()[pri:0, instance:StepDefLoginPage.Sample8@6950e31]" name="a" duration-ms="51804" started-at="2022-05-13T09:51:54 IST" finished-at="2022-05-13T09:52:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a -->
+      </class> <!-- StepDefLoginPage.Sample8 -->
+      <class name="StepDefLoginPage.Sample7">
+        <test-method status="PASS" signature="a()[pri:0, instance:StepDefLoginPage.Sample7@4671e53b]" name="a" duration-ms="77463" started-at="2022-05-13T09:51:54 IST" finished-at="2022-05-13T09:53:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a -->
+      </class> <!-- StepDefLoginPage.Sample7 -->
+      <class name="StepDefLoginPage.Sample2">
+        <test-method status="PASS" signature="a()[pri:0, instance:StepDefLoginPage.Sample2@757942a1]" name="a" duration-ms="84746" started-at="2022-05-13T09:51:54 IST" finished-at="2022-05-13T09:53:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a -->
+      </class> <!-- StepDefLoginPage.Sample2 -->
+      <class name="StepDefLoginPage.Sample1">
+        <test-method status="PASS" signature="a()[pri:0, instance:StepDefLoginPage.Sample1@87f383f]" name="a" duration-ms="51820" started-at="2022-05-13T09:51:54 IST" finished-at="2022-05-13T09:52:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a -->
+      </class> <!-- StepDefLoginPage.Sample1 -->
+      <class name="StepDefLoginPage.Sample10">
+        <test-method status="PASS" signature="a()[pri:0, instance:StepDefLoginPage.Sample10@42eca56e]" name="a" duration-ms="58697" started-at="2022-05-13T09:51:54 IST" finished-at="2022-05-13T09:52:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a -->
+      </class> <!-- StepDefLoginPage.Sample10 -->
+      <class name="StepDefLoginPage.Sample4">
+        <test-method status="PASS" signature="a()[pri:0, instance:StepDefLoginPage.Sample4@66d1af89]" name="a" duration-ms="55378" started-at="2022-05-13T09:51:54 IST" finished-at="2022-05-13T09:52:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a -->
+      </class> <!-- StepDefLoginPage.Sample4 -->
+      <class name="StepDefLoginPage.Sample3">
+        <test-method status="PASS" signature="a()[pri:0, instance:StepDefLoginPage.Sample3@4a87761d]" name="a" duration-ms="58560" started-at="2022-05-13T09:51:54 IST" finished-at="2022-05-13T09:52:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a -->
+      </class> <!-- StepDefLoginPage.Sample3 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
