@@ -1,28 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite" parallel="classes" thread-count="5">
-	<test name="Test_1">
+<suite name="Suite" parallel="classes" thread-count="10">
+
+
+	<listeners>
+		<listener class-name="StepDefLoginPage.KillTask" />
+	</listeners>
+
+	<test name="Test_4">
 		<classes>
-			<class name="StepDefLoginPage.Sample1" />
-			<class name="StepDefLoginPage.Sample2" />
-			<class name="StepDefLoginPage.Sample3" />
-			<class name="StepDefLoginPage.Sample4" />
-			<class name="StepDefLoginPage.Sample5" />
-			<class name="StepDefLoginPage.Sample6" />
-			<class name="StepDefLoginPage.Sample7" />
-			<class name="StepDefLoginPage.Sample8" />
-			<class name="StepDefLoginPage.Sample9" />
-			<class name="StepDefLoginPage.Sample10" />
+			<class name="StepDefLoginPage.TestChrome" />
+			<class name="StepDefLoginPage.TestChrome" />
+			<class name="StepDefLoginPage.TestChrome" />
+			<class name="StepDefLoginPage.TestChrome" />
 		</classes>
 	</test> <!-- Test -->
 
-	<test name="Test_2">
+
+
+
+
+	<test name="Test_3">
 		<classes>
-			<class name="StepDefLoginPage.Sample6" />
-			<class name="StepDefLoginPage.Sample7" />
-			<class name="StepDefLoginPage.Sample8" />
-			<class name="StepDefLoginPage.Sample9" />
-			<class name="StepDefLoginPage.Sample10" />
+			<class name="StepDefLoginPage.TestChrome" />
+			<class name="StepDefLoginPage.TestChrome" />
 		</classes>
 	</test>
+
+
+	<test name="Test_2">
+		<classes>
+			<class name="StepDefLoginPage.TestChrome" />
+		</classes>
+	</test>
+
+
+	<listeners>
+		<listener class-name="StepDefLoginPage.KillTask" />
+	</listeners>
+
+	<test name="Test_1">
+		<classes>
+			<class name="StepDefLoginPage.TestChrome" />
+		</classes>
+	</test>
+
 </suite> <!-- Suite -->

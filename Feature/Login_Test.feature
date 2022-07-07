@@ -5,7 +5,7 @@ Background: Verify the background functionality
     Given when we open the application through url
     Then application should through chrome browser
 
-Scenario: uccessful Login with Valid Credentials and Logout
+Scenario: unccessful Login with Valid Credentials and Logout
     Given User is on homePage
     When User navigate to login page
     And User entered UserName and Password
