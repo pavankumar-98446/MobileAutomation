@@ -53,6 +53,7 @@ public class AndroidTest_1 {
 		driver.findElementsByClassName("android.widget.Button").get(1).click();
 	}
 
+	@SuppressWarnings("rawtypes")
 	@When("^work with Mobile Gestures$")
 	public void work_with_Mobile_Gestures() throws InterruptedException {
 		WebElement views = driver.findElementByXPath("//android.widget.TextView[@text='Views']");
@@ -83,6 +84,7 @@ public class AndroidTest_1 {
 				.moveTo(element(second)).release().perform();
 	}
 
+	@SuppressWarnings("rawtypes")
 	@When("^work with Mobile DragAndDrop$")
 	public void work_with_Mobile_DragAndDrop() {
 		driver.findElementByXPath("//android.widget.TextView[@text='Views']").click();

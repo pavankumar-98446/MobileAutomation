@@ -16,7 +16,7 @@ Scenario: 2 Test Automation Cucmber Program with Normot Locatore Mobile Gestures
 Scenario: 3 Test Automation Cucmber Program with Normot Locatore Mobile Swiping 
 	Given lunch emulator and install apk file 
 	When  work with Mobile Swipping 
-	Then close the driver 
+	Then  close the driver 
 	
 Scenario: 4 Test Automation Cucmber Program with Normot Locatore Mobile Swiping 
 	Given lunch emulator and install apk file 
