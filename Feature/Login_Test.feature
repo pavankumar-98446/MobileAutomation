@@ -5,7 +5,7 @@ Background: Verify the background functionality
     Given when we open the application through url
     Then application should through chrome browser
 
-Scenario: unccessful Login with Valid Credentials and Logout
+Scenario: unsuccessful Login with Valid Credentials and Logout
     Given User is on homePage
     When User navigate to login page
     And User entered UserName and Password
@@ -21,5 +21,5 @@ Scenario: Login into the application with invalid credentials
     Given User is on homePage
     When User navigate to login page
     And User entered UserName and Password
-    But User not able to login to apllication due to invalid credentials
+    But User not able to login to application due to invalid credentials
     Then Invalid credentials should show
